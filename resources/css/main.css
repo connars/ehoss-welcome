@@ -39,6 +39,27 @@ blue : #037FD5
 font-family :
 -  sans-serif Roboto / Open sans / Helvetica with fallback to system-ui fonts
 */
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.head img {
+    width: 288px;
+}
+
+.head p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 130%;
+    /* or 36px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
 .text-black {
     color: #1d1d1d !important;
 }
@@ -78,7 +99,7 @@ video {
 }
 
 body {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     background-color: #ffffff;
     color: #1d1d1d;
@@ -106,7 +127,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3, h4 {
@@ -1737,7 +1758,7 @@ textarea {
 
 .form-group label.error {
     position: absolute;
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-size: 12px;
     top: 4px;
@@ -1885,7 +1906,7 @@ textarea {
 }
 
 .article-light > .article-content > .wrapper > h2 {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 3rem;
     font-weight: 300;
@@ -1893,7 +1914,7 @@ textarea {
 }
 
 .article-light > .article-content > .wrapper > p {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 
@@ -1918,7 +1939,7 @@ textarea {
 }
 
 .article-light > .article-content > .wrapper > p {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: 1.5rem;
 }
 
@@ -1950,7 +1971,7 @@ textarea {
 }
 
 .article-light > .article-content > .wrapper > li {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     margin-left: 30px;
     margin-bottom: 14px;
@@ -2000,7 +2021,7 @@ textarea {
     margin-left: -24px;
     padding-top: 0px;
     padding-bottom: 2px;
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-style: italic;
     color: rgba(29, 29, 29, 0.6);
@@ -3383,7 +3404,7 @@ textarea {
 
 @media (min-width: 768px) {
     .page-header-alpha .navbar-brand {
-        position: fixed;
+        /* position: fixed; */
         left: 120px;
         top: 32px;
         z-index: 20;
@@ -3543,7 +3564,7 @@ textarea {
 }
 
 .page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item {
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -4076,7 +4097,7 @@ textarea {
         left: 55px!important;
     }
     #fp-nav.right {
-        left: 40px !important;
+        /* left: 40px !important; */
     }
 }
 
@@ -4091,7 +4112,7 @@ textarea {
 
 #fp-nav.right {
     width: 30px;
-    left: 70px;
+    /* left: 70px; */
     margin-right: 0px;
     position: absolute;
 }
@@ -4622,7 +4643,7 @@ textarea {
     right: auto;
     margin-bottom: 32px;
     left: 50%;
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     z-index: 2;
     background: transparent;
 }
@@ -4644,7 +4665,7 @@ textarea {
     position: relative;
     display: block;
     font-size: 0.75rem;
-    font-family: "Open Sans", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1;
     padding: 8px 8px;
     -webkit-transition: 0.3s;
@@ -6787,4 +6808,156 @@ h1, h2, h3, h4 {
     .item-buttons .item-buttons-purchase, .item-buttons .item-buttons-next {
         text-align: center;
     }
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    position: absolute;
+}
+
+.head img {
+    width: 288px;
+}
+
+.head p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 130%;
+    /* or 36px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@media (max-width: 736px) {
+    .head {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .head p {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+}
+
+.line-1,
+.line-2,
+.line-3,
+.line-4 {
+    background: red;
+    width: 5px;
+    height: 70vh;
+    margin-left: 25px;
+    margin-right: 35px;
+    box-shadow: inset 2px 2px 5px red, 1px 1px 25px red;
+    z-index: 9 !important;
+}
+
+.central-page-line {
+  height: 100vh !important;
+}
+
+
+/* FOOTER SECTION END */
+
+@media (max-height: 1430px) {
+
+    .line-1,
+    .line-2,
+    .line-3,
+    .line-4 {
+        height: 57vh;
+    }
+}
+
+
+@media (max-height: 950px) {
+
+    .line-1,
+    .line-2,
+    .line-3,
+    .line-4 {
+        height: 50vh;
+    }
+}
+
+
+@media (max-height: 600px) {
+
+    .line-1,
+    .line-2,
+    .line-3,
+    .line-4 {
+        height: 40vh;
+    }
+
+}
+
+.cont-for-red-l {
+  position: absolute;
+  max-height: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  z-index: 9;
+  left: 0px;
+}
+
+@media screen and (max-width: 600px){
+  .cont-for-red-l {
+    left: 0px;
+  }
+}
+
+.header__wrapper {
+  z-index: 10;
+}
+
+
+.radius-1,
+.radius-2 {
+  background: red;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 2px 2px 5px red, 1px 1px 25px red;
+}
+
+.radius-11 {
+  background: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.radius-2 {
+  margin-left: 42.5px;
+}
+
+
+.line-2 {
+  height: 40px;
+  transform: rotate(32deg);
+  margin-left: 35px;
+  margin-top: -5px;
+}
+
+.line-3 {
+  height: 20px;
+  margin-top: -4px;
+}
+
+.line-4 {
+  /* height: 190.5vh; */
+  z-index: 1;
 }
